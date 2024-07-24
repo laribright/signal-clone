@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack Signal Clone: Next.js 15, Convex, Supabase Storage, Clerk, Zustand, Vercel
+
+Welcome to the Fullstack Signal Clone: Next.js 15, Convex, Supabase Storage, Clerk, Zustand, Vercel Course! In this course, you'll learn how to build a fully-featured Signal - Google Meet clone from scratch. This README will guide you through setting up the project and running the course.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- Node.js (v14 or later)
+- Git (For deployment - Not for Development)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/laribright/signal-clone.git
+   cd slack-clone
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Set Up Environment Variables:**
 
-To learn more about Next.js, take a look at the following resources:
+   - Rename the `.env.example` file to `.env.local` and fill in the required environment variables.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   mv .env.example .env.local
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the Development Server:**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Your app should now be running on [http://localhost:3000](http://localhost:3000).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Course Structure
+
+This course is divided into multiple modules, each covering different aspects of building the Slack clone. The modules include:
+
+- AUTH
+- CREATE GROUP
+- FRIEND REQUEST
+- DIRECT MESSAGING
+- VIDEO CALL
+- AUDIO CALL
+- SCREEN SHARING
+- LEAVE GROUP
+- DELETE GROUP
+- BLOCK USER
+- GROUP CALL
+- FILE SHARING
+- READ RECEIPT
+- UNREAD MESSAGE COUNT
+- DARK AND LIGHT THEME
+- Middleware in Next.js
+- Advanced practices
+
+### Environment Variables
+
+Make sure to properly configure your environment variables by referring to the `.env.example` file. This file contains example values and instructions on what needs to be filled in.
+
+## Course Video
+
+Watch the full course on YouTube: [Fullstack Signal Clone: Next.js 15, Convex, Supabase Storage, Clerk, Zustand, Vercel](https://www.youtube.com/watch?v=kzmxtSOTYus)
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are always welcome!
+
+## Support
+
+If you find this course helpful, please give this repository a star to show your support, and don't forget to subsribe to the channel 🙂!
+
+---
+
+Happy coding! Let's build something amazing together.
